@@ -4,15 +4,15 @@
 <!--
   * locale.xml
   *
-  * Copyright (c) 2013-2016 Simon Fraser University Library
-  * Copyright (c) 2000-2016 John Willinsky
+  * Copyright (c) 2013-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
-  * Localization strings for the en_US (U.S. English) locale.
+  * Localization strings.
   *
   -->
- 
-<locale name="id_ID" full_name="Bahasa Indonesia">
+
+<locale name="id_ID" full_name="Indonesia">
 	<message key="plugins.generic.acron.name">Acron Plugin</message>
 	<message key="plugins.generic.acron.description"><![CDATA[Plugin ini untuk mengurangi ketergantungan dari OJS pada alat penjadwalan periodik seperti 'cron.']]></message>
 	<message key="plugins.generic.acron.enabled">Plugin Acron dikatifkan.</message>
