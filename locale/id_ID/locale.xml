@@ -4,8 +4,8 @@
 <!--
   * locale/id_ID/locale.xml
   *
-  * Copyright (c) 2013-2019 Simon Fraser University
-  * Copyright (c) 2003-2019 John Willinsky
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
@@ -19,9 +19,40 @@
 
 	<!-- Journal Management -->
 
+	<message key="common.journal">Jurnal</message>
+
+	<!-- Journal Management -->
+
+	<!-- Categories -->
+	<message key="navigation.categories">Kategori</message>
+	<message key="navigation.categories.browse">Arsip</message>
+	<message key="navigation.categories.archive">Arsip</message>
+	
 	<!--  peer review -->
 	<message key="submission.reviewForm">Form Review</message>
-	<message key="submission.reviewFormResponse">Respon Form Review</message>
+	<message key="submission.reviewFormResponse">Tanggapan Form Review</message>
+
+	<!-- Permissions -->
+	<message key="submission.permissions">Izin</message>
+	<message key="submission.license">Lisensi</message>
+	<message key="submission.copyright">Hak Cipta</message>
+	<message key="submission.copyrightHolder">Pemilik Hak Cipta</message>
+	<message key="submission.copyrightYear">Tahun Hak Cipta</message>
+	<message key="submission.copyrightStatement">Copyright (c) {$copyrightYear} {$copyrightHolder}</message>
+	<message key="submission.licenseURLValid">Berikan alamat URL yang valid (include http://).</message>
+	<message key="submission.licenseURL">Lisensi URL</message>
+	<message key="submission.license.cc.by-nc-nd4">CC Attribution-NonCommercial-NoDerivatives 4.0</message>
+	<message key="submission.license.cc.by-nc4">CC Attribution-NonCommercial 4.0</message>
+	<message key="submission.license.cc.by-nc-sa4">CC Attribution-NonCommercial-ShareAlike 4.0</message>
+	<message key="submission.license.cc.by-nd4">CC Attribution-NoDerivatives 4.0</message>
+	<message key="submission.license.cc.by4">CC Attribution 4.0</message>
+	<message key="submission.license.cc.by-sa4">CC Attribution-ShareAlike 4.0</message>
+	<message key="submission.license.cc.by-nc-nd4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.]]></message>
+	<message key="submission.license.cc.by-nc4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.]]></message>
+	<message key="submission.license.cc.by-nc-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.]]></message>
+	<message key="submission.license.cc.by-nd4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.]]></message>
+	<message key="submission.license.cc.by4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.]]></message>
+	<message key="submission.license.cc.by-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.]]></message>
 
 
 	<message key="reviewer.article.enterReviewForm">Klik di ikon untuk mengisi form review.</message>	
@@ -36,7 +67,7 @@
 	-->
 
 	<!-- Common Messages -->
-	<message key="common.openJournalSystems">Open Journal Systems</message>
+	<message key="common.openJournalSystems">Buka Pengaturan Jurnal</message>
 	<message key="common.confirmComplete">Apakah Anda yakin tugas ini telah selesai? Anda mungkin tidak bisa membuat perubahan setelahnya.</message>
 	<message key="common.payment">Pembayaran</message>
 	<message key="common.payments">Pembayaran</message>
@@ -120,7 +151,7 @@
 	<message key="article.submission">Naskah</message>
 	<message key="article.submissions">Naskah</message>
 	<message key="article.details">Detail</message>
-	<message key="article.abstract">Sari</message>
+	<message key="article.abstract">Abstrak</message>
 	<message key="article.coverPage.altText">Gambar Sampul</message>
 	<message key="article.accessLogoOpen.altText">Akses Terbuka</message>
 	<message key="article.accessLogoRestricted.altText">Akses Terbatas</message>
@@ -184,16 +215,21 @@
 	<message key="journal.issn">ISSN</message>
 
 	<!-- User -->
+	<message key="user.profile.profileImage">Foto Profil</message>
 	<message key="user.showAllJournals">Tunjukkan Jurnal Saya</message>
 	<message key="user.registerForOtherJournals">Mendaftar untuk Jurnal Lain</message>
 	<message key="user.myJournals">Jurnal Saya</message>
 	<message key="user.manageMySubscriptions">Mengatur Langganan Saya</message>
-	<message key="user.noRoles.chooseJournal">Akun Anda tidak sedang berhubungan dengan jurnal manapun. Pilihlah sebuah jurnal:</message>
+	<message key="user.noRoles.chooseJournal">Akun Anda tidak sedang terhubung dengan jurnal manapun. Pilihlah salah satu jurnal:</message>
 	<message key="user.noRoles.noRolesForJournal">Akun Anda sekarang tidak mempunyai peran apapun untuk jurnal ini. Pilih dari tindakan berikut:</message>
-	<message key="user.noRoles.submitArticle">Serahkan Proposal</message>
+	<message key="user.noRoles.submitArticle">Serahkan Artikel</message>
 	<message key="user.noRoles.submitArticleRegClosed">Serahkan Artikel: Registrasi Penulis sedang tidak bisa.</message>
 	<message key="user.noRoles.regReviewer">Daftar sebagai Reviewer</message>
 	<message key="user.noRoles.regReviewerClosed">Daftar sebagai Reviewer: Registrasi Reviewer sedang tidak bisa.</message>
+	<message key="user.orcid">ORCID iD</message>
+	<message key="user.orcid.description">ORCID iD adalah organisasi non-profit untuk menciptakan dunia di mana semua yang berpartisipasi dalam penelitian, beasiswa dan inovasi unik diidentifikasi dan terhubung dengan kontribusi dan afiliasi mereka, di seluruh disiplin ilmu, perbatasan dan waktu. <![CDATA[ORCID iDs hanya dapat diperoleh dari <a href="http://orcid.org/" target="_blank">the ORCID Registry</a>. Anda harus sesuai dengan standar mereka untuk memperoleh ORCID iD, dan mendapatkan URL (contoh. <em>http://orcid.org/0000-0002-1825-0097</em>).]]></message>
+	<message key="user.profile.form.orcidInvalid">ORCID iD yang anda cantumkan tidak valid.</message>
+	<message key="user.profile.implicitAuthChangePasswordInstructions">Jika Anda telah login melalui via shibboleth anda, ikuti proses organisasi jika anda perlu mengubah sandi anda. Untuk pengguna lokal, silahkan lanjut di bawah ini.</message>
 
 	<!-- Roles -->
 	<message key="user.role.manager">Manajer Jurnal</message>
@@ -222,10 +258,14 @@
 	<message key="issue.vol">Vol</message>
 	<message key="issue.no">No</message>
 	<message key="issue.year">Tahun</message>
-	<message key="issue.noIssues">Tidak ada Terbitan</message>
+	<message key="issue.noIssues">Tidak Ada Terbitan</message>
 	<message key="issue.toc">Daftar Isi</message>
-	<message key="issue.abstract">Sari</message>
+	<message key="issue.abstract">Abstrak</message>
 	<message key="issue.coverPage.altText">Halaman Sampul</message>
+	<message key="issue.fullIssue">Seluruh Terbitan</message>
+	<message key="issue.nonpdf.title">Unduh Terbitan</message>
+	<message key="issue.viewIssue">Tampilkan Terbitan</message>
+	<message key="issue.viewIssueDescription">Tampilkan atau unduh seluruh Terbitan</message>
 
 	<!-- Common Subscription Type Terms -->
 	<message key="subscriptionTypes.currency">Mata Uang</message>
@@ -257,11 +297,6 @@
 	 * LOG - This section contains entries related to log entries.
 	 *
 	-->
-	<message key="submission.event.logLevel">Tingkat</message>
-	<message key="submission.event.logLevel.info">Info</message>
-	<message key="submission.event.logLevel.notice">Pemberitahuan</message>
-	<message key="submission.event.logLevel.warning">Peringatan</message>
-	<message key="submission.event.logLevel.error">Kesalahan</message>
 	
 	<message key="submission.event.general.defaultEvent">Acara Penyerahan</message>
 	<message key="submission.event.general.articleSubmitted">Artikel yang diserahkan</message>
@@ -303,7 +338,7 @@
 	<!--
 	 *
 	 * INTERFACE - Contains phrases organized by the section of the
-	 *             user interfacess they appear in.
+	 *             user interfaces they appear in.
 	 *
 	-->
 
@@ -329,14 +364,18 @@ Perhatikan bahwa OAI antarmuka dapat dinonaktifkan dengan mengedit konfigurasi s
 	
 	
 	<!-- Languages -->
-		<message key="admin.auth.defaultSourceDescription"><![CDATA[<p>Menentukan sumber pengesahan selain OJS memiliki dampak berikut:</p>
+	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Mengunduh paket bahasa dari Public Knowladge Project web server tidak tersedia karena :</p>
+	<ul>
+		<li>Server anda tidak memiliki atau mengizinkan pelaksanaan GNU "tar" utility</li>
+		<li>OJS tidak dapat memodifikasi file registri lokal, seperti "registry/locales.xml".</li>
+	</ul>
+<p>Paket bahasa dapat di unduh secara manual dari <a href="http://pkp.sfu.ca">PKP web site</a>.</p>]]></message>
+	<message key="admin.auth.defaultSourceDescription"><![CDATA[<p>Menentukan sumber pengesahan selain OJS memiliki dampak berikut:</p>
 <ul>
-	<li>Jika pengguna mencoba mendaftar dengan akun baru pada situs ini, dengan menggunakan nama pengguna yang ada di sumber pengesahan (tetapi tidak dalam database OJS), pendaftaran hanya diperbolehkan jika kata sandi yang diberikan berlaku untuk akun pengguna.</li>
+	<li>Jika pengguna mencoba mendaftar dengan akun baru pada situs ini, dengan menggunakan Username yang ada di sumber pengesahan (tetapi tidak dalam database OJS), pendaftaran hanya diperbolehkan jika Password yang diberikan berlaku untuk akun pengguna.</li>
 </ul>]]></message>
 	
 	<!-- Informasi Sistem -->
-	<message key="admin.editSystemConfigInstructions"><![CDATA[Gunakan form ini untuk memodifikasi konfigurasi sistem Anda yang ada pada file (<tt>config.inc.php</tt>). Klik "Simpan Konfigurasi" untuk menyimpan konfigurasi baru Anda, atau "Tampilkan Konfigurasi Baru" untuk menampilkan file konfigurasi yang telah diupdate dan tidak memodifikasi konfigurasi yang sudah ada. <br /><br />
-<span class="formError">Peringatan: Mengubah pengaturan ini berpotensi membuat situs Anda dalam keadaan tidak dapat diakses (memerlukan file konfigurasi untuk diperbaiki secara manual). Sangat dianjurkan untuk tidak melakukan perubahan apapun kecuali Anda tahu persis apa yang Anda lakukan.</span>]]></message>
 	<message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>Catatan!</h4>
 <p>Sistem tidak dapat secara otomatis menimpa file konfigurasi. Untuk menerapkan perubahan konfigurasi Anda, Anda harus membuka <tt>config.inc.php</tt> di text editor yang cocok dan mengganti isinya dengan isi text field di bawah ini.</p>]]></message>
 	
@@ -366,7 +405,7 @@ Perhatikan bahwa OAI antarmuka dapat dinonaktifkan dengan mengedit konfigurasi s
 	<message key="plugins.categories.auth.description">Pengesaham Plugin mengizinkan Open Journal Systems untuk mendelegasikan tugas pengesahan pengguna ke sistem lain, seperti server LDAP.</message>
 
 
-	<message key="plugins.categories.citationFormats.description">Plugin format sitiran menyediakan pengguna dengan format yang bermacam-macam untuk mengakses sitiran artikel.</message>
+	<message key="plugins.categories.citationFormats.description">Plugin format kutipan menyediakan pengguna dengan format yang bermacam-macam untuk mengakses kutipan artikel.</message>
 
 
 	<message key="plugins.categories.generic.description">Plugin umum digunakan untuk memperluas Open Journal Systems dalam banyak cara yang bervariasi yang tidak didukung oleh kategori plugin yang lain.</message>
@@ -377,6 +416,8 @@ Perhatikan bahwa OAI antarmuka dapat dinonaktifkan dengan mengedit konfigurasi s
 
 	<message key="plugins.categories.oaiMetadataFormats">Plugin Format Metadata OAI</message>
 	<message key="plugins.categories.oaiMetadataFormats.description">Plugin format ini mengekspresikan metadata in komunikasi OAI.</message>
+	<message key="plugins.categories.pubIds">Publik Identifikasi Plugin</message>
+	<message key="plugins.categories.pubIds.description">Plugin ini menerapkan dukungan untuk identifikasi publik.</message>
 
 
  
@@ -392,32 +433,36 @@ Perhatikan bahwa OAI antarmuka dapat dinonaktifkan dengan mengedit konfigurasi s
 
 	<message key="manager.setup.reviewProcessEmailDescription">Editor mengirimkan permintaan kepada Reviewer untuk mereview naskah yang dilampirkan di email. Reviewer mengirimkan editor persetujuan atau penolakan, seperti halnya review dan rekomendasi di halaman review naskah, untuk mencatat proses review.</message>
 
+	<message key="manager.setup.preservationDescription"><![CDATA[Open Journal Systems supports the <a href="http://www.lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) system to ensure secure and permanent preservation of your journal. You have several options for including your journal in a LOCKSS network:]]></message>
 
-	<message key="manager.setup.lockssDescription"><![CDATA[OJS support <a href="http://www.lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe). Sebuah sistem untuk mengarsipkan jurnal secara permanen dan aman. LOCKSS adalah perangkat lunak open source yang dikembangkan di Library of Stanford University yang memungkinkan perpustakaan untuk menjaga website jurnal yang dipilih dengan mengumpulkan backup data secara teratur dari website jurnal yang terdaftar untuk konten yang baru diterbitkan dan mengarsipkannya. Tiap arsip divalidasi secara terus menerus terhadap library caches yang lain, dan jika konten ditemukan dalam keadaan rusak atau hilang, caches atau jurnal yang lain digunakan untuk menyimpan ulang.
-<br /><br />
-LOCKSS dapat digunakan setelah penerbitan berlangsung sepenuhnya, dengan mengikuti dua langkah berikut:]]></message>
+
+	<message key="manager.setup.lockssDescription"><![CDATA[<strong>PKP Private LOCKSS Network</strong> 
+<p>Setiap jurnal OJS yang memiliki ISSN dan telah menerbitkan setidaknya satu artikel dapat memilih untuk menyetujui persyaratan penggunaan dan dipertahankan dalam PKP PLN tanpa biaya.</p>
+<p>Untuk bergabung, pergi ke <a href="{$genericPluginsUrl}">Generic Plugins</a>, cari PKP PLN Plugin, pilih Enable, kemudian pilih Settings, dan menerima Syarat Penggunaan. konten Anda maka akan secara otomatis disertakan dalam jaringan. Tidak ada tindakan lebih lanjut diperlukan.</p> 
+<strong>Other LOCKSS Networks</strong>
+<p>Jika anda yakin memiliki akses ke salahsatu atau lebih dari jaringan LOCKSS yang tercantum <a href="http://www.lockss.org/community/networks/" target="_blank">disini</a>, silahkan hubungi pengelola LOCKSS Jaringan yang tepat untuk mengajukan inklusi. Mengisi formulir di bawah ini akan memungkinkan untuk memasukkan jurnal Anda di jaringan tersebut. <em>Tidak ada konten akan dipertahankan sebelum Anda telah memberitahukan jaringan yang sesuai</em>.</p>]]></message>
 	
 	<!-- Setup Langkah 3 -->
 	<message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>Usulan Pembuatan Informasi Hak Cipta</h3>
 <h4>1. Kebijakan yang diajukan untuk jurnal yang menawarkan akses terbuka</h4>
 Syarat yang harus dipenuhi oleh Penulis sebagai berikut:
 <ol type="a">
-	<li>Penulis menyimpan hak cipta dan memberikan jurnal hak penerbitan pertama naskah secara simultan dengan lisensi di bawah <a target="_new" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> yang mengizinkan orang lain untuk berbagi pekerjaan dengan sebuah pernyataan kepenulisan pekerjaan dan penerbitan awal di jurnal ini.</li>
+	<li>Penulis menyimpan hak cipta dan memberikan jurnal hak penerbitan pertama naskah secara simultan dengan lisensi di bawah <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> yang mengizinkan orang lain untuk berbagi pekerjaan dengan sebuah pernyataan kepenulisan pekerjaan dan penerbitan awal di jurnal ini.</li>
 	<li>Penulis bisa memasukkan ke dalam penyusunan kontraktual tambahan terpisah untuk distribusi non ekslusif versi kaya terbitan jurnal (contoh: mempostingnya ke repositori institusional atau menerbitkannya dalam sebuah buku), dengan pengakuan penerbitan awalnya di jurnal ini.</li>
-	<li>Penulis diizinkan dan didorong untuk mem-posting karya mereka online (contoh: di repositori institusional atau di website mereka) sebelum dan selama proses penyerahan, karena dapat mengarahkan ke pertukaran produktif, seperti halnya sitiran yang lebih awal dan lebih hebat dari karya yang diterbitkan. (Lihat <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">Efek Akses Terbuka</a>).</li>
+	<li>Penulis diizinkan dan didorong untuk mem-posting karya mereka online (contoh: di repositori institusional atau di website mereka) sebelum dan selama proses penyerahan, karena dapat mengarahkan ke pertukaran produktif, seperti halnya kutipan yang lebih awal dan lebih hebat dari karya yang diterbitkan. (Lihat <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">Efek Akses Terbuka</a>).</li>
 </ol>
 
 <h4>Kebijakan yang diajukan untuk jurnal yang menawarkan akses terbuka yang tertunda</h4>
 Penulis yang menerbitkan dengan jurnal ini setuju pada persyaratan berikut ini:<ol type="a">
-	<li>Penulis menyimpan hak cipta dan memberikan jurnal hak penerbitan pertama, dengan pekerjaan [TENTUKAN PERIODE WAKTU] setelah penerbitan secara simultan dengan lisensi di bawah:  <a target="_new" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> yang memudahkan yang lain untuk berbagi karya dengan pengakuan penerbitan awal dan kepenulisan karya di jurnal ini.</li>
+	<li>Penulis menyimpan hak cipta dan memberikan jurnal hak penerbitan pertama, dengan pekerjaan [TENTUKAN PERIODE WAKTU] setelah penerbitan secara simultan dengan lisensi di bawah:  <a target="_new" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License</a> yang memudahkan yang lain untuk berbagi karya dengan pengakuan penerbitan awal dan kepenulisan karya di jurnal ini.</li>
 	 <li>Penulis bisa memasukkan ke dalam penyusunan kontraktual tambahan terpisah untuk distribusi non-ekslusif versi kaya terbitan jurnal (contoh: mempostingnya ke repositori institusional atau menerbitkannya dalam sebuah buku), dengan pengakuan penerbitan awalnya di jurnal ini.</li>
-	 <li>Penulis diizinkan dan didorong untuk mem-posting karya mereka online (contoh: di repositori institusional atau di website mereka) sebelum dan selama proses penyerahan, karena dapat mengarahkan ke pertukaran produktif, seperti halnya sitiran yang lebih awal dan lebih hebat dari karya yang diterbitkan. (Lihat <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">Efek Akses Terbuka</a>).</li>
+	 <li>Penulis diizinkan dan didorong untuk mem-posting karya mereka online (contoh: di repositori institusional atau di website mereka) sebelum dan selama proses penyerahan, karena dapat mengarahkan ke pertukaran produktif, seperti halnya kutipan yang lebih awal dan lebih hebat dari karya yang diterbitkan. (Lihat <a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">Efek Akses Terbuka</a>).</li>
 </ol>]]></message>
 	<message key="manager.setup.subjectClassificationDescription"><![CDATA[[Jurnal akan menggunakan sistem klasifikasi subjek yang tersedia di web.<br />
 Judul Sistem Klasifikasi]]></message>
-	<message key="manager.setup.registerJournalForIndexingDescription"><![CDATA[Untuk mengindeks konten jurnal kedalam sistem terdistribusi global dari database riset, baca <a href="http://www.oclc.org/oaister/contribute.en.html" target="_blank">langkah-langkah untuk menjadi kontributor data</a> dan daftarkan jurnal Anda di<a href="http://www.openarchives.org/data/registerasprovider.html" target="_blank">Pendaftaran Open Archives</a>.  Untuk mendaftar, Anda akan membutuhkan URL untuk repositori:<span class="highlight">{$oaiUrl}</span>. Setelah itu, Anda dapat mendaftarkan jurnal Anda di <a href="http://gita.grainger.uiuc.edu/registry/" target="_blank">UIUC OAI registry</a>dan<a href="http://www.oclc.org/oaister" target="_blank">OAIster</a>.
+	<message key="manager.setup.registerJournalForIndexingDescription"><![CDATA[Untuk mengindeks konten jurnal kedalam sistem terdistribusi global dari database riset, baca <a href="http://www.oclc.org/oaister/contribute.en.html" target="_blank">langkah-langkah untuk menjadi kontributor data</a> dan daftarkan jurnal Anda di<a href="http://www.openarchives.org/data/registerasprovider.html" target="_blank"> Pendaftaran Open Archives</a>.  Untuk mendaftar, Anda akan membutuhkan URL untuk repositori:<span class="highlight">{$oaiUrl}</span>. Setelah itu, Anda dapat mendaftarkan jurnal Anda di <a href="http://gita.grainger.uiuc.edu/registry/" target="_blank">UIUC OAI registry</a> dan <a href="http://www.oclc.org/oaister" target="_blank"> OAIster</a>.
 <br /><br />Perhatikan jika Administrator Situs Anda sudah mendaftarkan situs ini pada layanan ini, jurnal Anda akan diindeks secara otomatis dan Anda tidak perlu mendaftarkan lagi.]]></message>
-	<message key="manager.setup.citations">Memungkinkan Bantuan Koreksi sitiran</message>
+	<message key="manager.setup.citations">Memungkinkan Bantuan Koreksi Kutipan</message>
 
 	<!-- Setup Langkah 4 -->
 	<message key="manager.setup.basicEditorialStepsDescription"><![CDATA[Langkah: Antrian Penyerahan &gt; Review Naskah &gt; Pengediatan Naskah &gt; Daftar Isi.<br /><br />
@@ -466,8 +511,25 @@ Pilih model untuk menangani aspek proses editorial ni. (Untuk menunjuk Editor Pe
 	<!-- Editor -->
 	<message key="editor.submissionReview.notes"><![CDATA[<ol>
 	<li>Item yang disorot menunjukkan tindakan yang dibutuhkan oleh editor.</li>
+	<ul>
+			<li class="highlightReviewerNotNotified">A Reviewer has been assigned but not notified by email</li>
+			<li class="highlightNoDecision">All Reviewers have returned with their comments, but no decision is recorded</li>
+			<li class="highlightRevisedCopyUploaded">Author has uploaded a revised manuscript</li>
+			<li class="highlightReviewerConfirmationOverdue">Reviewer is overdue to confirm peer review invitation</li>
+			<li class="highlightReviewerCompletionOverdue">Reviewer is overdue to complete review</li>
+		</ul>
 	<li>"Jatuh Tempo" diisi saat Reviewer menerima permintaan untuk mereview; menampilkan berapa minggu menjelang jatuh tempo atau berapa minggu sudah lewat dari jatuh tempo.</li>
 </ol>]]></message>
+	<message key="editor.submissionEditing.notes">
+	<![CDATA[<ol>
+	<li>Highlighted items indicate action is required by an editor, labelled as follows:
+		<ul>
+			<li class="highlightCopyediting">An action is required in the copyediting stage</li>
+			<li class="highlightLayoutEditing">An action is required in the layout editing stage</li>
+			<li class="higlightProofreading">An action is required in the proofreading stage</li>
+		</ul>
+	</li>
+	</ol>]]></message>
 
 	<!--Halaman Index Editor -->
 
@@ -662,26 +724,29 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="submission.comments.saveAndEmailEditor">Simpan dan email Penulis</message>
 	
 	<!-- Login -->
-	<message key="user.login.registerNewAccount">Bukan Pengguna? Daftar di situs ini</message>
-	<message key="user.login.resetPasswordInstructions"><![CDATA[Untuk alasan keamanan, sistem ini akan mengirimkan kata sandi yang bisa diatur ulang oleh pengguna melalui email.<br /><br />Masukkan alamat email Anda di bawah ini untuk mengatur ulang kata sandi Anda. Konfirmasi akan dikirim ke alamat email.]]></message>
+	<message key="user.login.registerNewAccount">Belum punya akun? Daftar/Register</message>
+	<message key="user.login.resetPasswordInstructions"><![CDATA[Untuk alasan keamanan, sistem ini akan mengirimkan Password yang bisa diatur ulang oleh pengguna melalui email.<br /><br />Masukkan alamat email Anda di bawah ini untuk mengatur ulang Password Anda. Konfirmasi akan dikirim ke alamat email.]]></message>
+	<message key="user.login.implicitAuthLogin">Login via Shibboleth</message>
 		
 	<!-- Registration -->
-	<message key="user.register.repeatPassword">Ulangi Kata Sandi</message>
+	<message key="user.register.emailValidation">Validasi Email Diperlukan</message>
+	<message key="user.register.emailValidationDescription">Anda diminta untuk memvalidasi alamat email anda sebelum melanjutkan. Silahkan cek akun email anda untuk petunjuk lebih lanjut. Setelah anda memvalidasi akun, anda dapat login.</message>
 	<message key="user.register.selectJournal">Pilih sebuah jurnal untuk mendaftar</message>
 	<message key="user.register.noJournals">Tidak ada jurnal untuk Anda mendaftar di situs ini.</message>
 	<message key="user.register.privacyStatement">Pernyataan Privasi</message>
 	<message key="user.register.alreadyRegisteredOtherJournal"><![CDATA[<a href="{$registerUrl}">Klik di sini</a> Jika Anda sudah terdaftar di jurnal ini atau jurnal lain di situs ini.]]></message>
 	<message key="user.register.notAlreadyRegisteredOtherJournal"><![CDATA[<a href="{$registerUrl}">Klik di sini</a> Jika Anda <strong>belum</strong> terdaftar di jurnal ini atau jurnal lain di situs ini.]]></message>
-	<message key="user.register.loginToRegister">Masukkan nama pengguna dan kata sandi Anda untuk login di jurnal ini.</message>
+	<message key="user.register.loginToRegister">Masukkan Username dan Password Anda untuk login di jurnal ini.</message>
 	<message key="user.register.registrationDisabled">Jurnal sedang tidak menerima pendaftaran pengguna.</message>
-	<message key="user.register.form.passwordLengthTooShort">Kata Sandi yang Anda masukkan tidak cukup panjang.</message>
+	<message key="user.register.form.passwordLengthTooShort">Password yang Anda masukkan tidak cukup panjang.</message>
 	<message key="user.register.readerDescription">Pemberitahuan melalui email pada publikasi terbitan jurnal.</message>
 	<message key="user.register.openAccessNotificationDescription">Diberitahu melalui email saat terbitan jurnal dibuat akses terbuka.</message>
 	<message key="user.register.authorDescription">Dapat memasukkan naskah dan kelengkapannya ke jurnal.</message>
 	<message key="user.register.reviewerDescriptionNoInterests">Bersedia melakukan proses peer review naskah untuk jurnal.</message>
 	<message key="user.register.reviewerDescription">Bersedia melakukan proses peer review naskah untuk penerbit.</message>
 	<message key="user.register.reviewerInterests">Mengidentifikasi minat mereview (area substantif dan metode riset):</message>
-	
+	<message key="user.register.implicitAuth">Login via Shibboleth dengan akun organisasi yang ada</message>
+
 	<!-- Subscriptions -->
 	<message key="user.subscriptions.mySubscriptions">Saya</message>
 	<message key="user.subscriptions.subscriptionStatus">Status Langganan</message>
@@ -709,8 +774,8 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="user.subscriptions.form.subscriptionExists">Akun pengguna ini sudah memiliki langganan individu.</message>
 	<message key="user.subscriptions.form.membershipInstructions">Informasi keanggotaan dibutuhkan untuk tipe langganan yang dipilih.</message>
 	<message key="user.subscriptions.form.institutionName">Nama Institusi</message>
-	<message key="user.subscriptions.form.institutionNameRequired">Nama insitudi dibutuhkan.</message>
-	<message key="user.subscriptions.form.institutionMailingAddress">Alamat Surat Menyurat</message>
+	<message key="user.subscriptions.form.institutionNameRequired">Nama Institusi dibutuhkan.</message>
+	<message key="user.subscriptions.form.institutionMailingAddress">Alamat Institusi</message>
 	<message key="user.subscriptions.form.domain">Domain</message>
 	<message key="user.subscriptions.form.domainInstructions"><![CDATA[Jika domain dimasukkan di sini, IP ranges opsional.<br />Nilai Valid adalah nama domain (contoh lib.sfu.ca).]]></message>
 	<message key="user.subscriptions.form.domainIPRangeRequired">Tipe langganan yang dipilih memerlukan domain dan/ atau IP range untuk pengesahan langganan.</message>
@@ -758,7 +823,8 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="site.journalView">Lihat Jurnal</message>
 	<message key="site.journalRegister">Daftar</message>
 	<message key="site.journalCurrent">Terbitan Terkini</message>
-	
+	<message key="site.noJournals">Tidak ada jurnal yang tersedia.</message>
+
 
 	<!-- Current index -->
 	<message key="current.current">Terkini</message>
@@ -774,7 +840,7 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="about.statistics">Statistik</message>
 	<message key="about.journalContact">Kontak Jurnal</message>
 	<message key="about.aboutTheJournal">Tentang Kami</message>
-	<message key="about.history">Visi dan Tujuan Jurnal</message>
+	<message key="about.history">Sejarah Jurnal</message>
 	<message key="about.editorialTeam">Dewan Editorial</message>
 	<message key="about.editorialTeam.biography">Biografi</message>
 	<message key="about.editorialPolicies">Kebijakan Editorial</message>
@@ -784,13 +850,13 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="about.sponsors">Sponsor</message>
 	<message key="about.contributors">Kontributor</message>
 	<message key="about.onlineSubmissions">Penyerahan Online</message>
-	<message key="about.onlineSubmissions.haveAccount">Sudahkah memiliki nama pengguna dan kata sandi untuk {$journalTitle}?</message>
+	<message key="about.onlineSubmissions.haveAccount">Sudahkah Anda memiliki Username dan Password di {$journalTitle}?</message>
 	<message key="about.onlineSubmissions.login">Ke Login</message>
-	<message key="about.onlineSubmissions.needAccount">Butuh nama pengguna dan kata sandi?</message>
+	<message key="about.onlineSubmissions.needAccount">Butuh Username dan Password?</message>
 	<message key="about.onlineSubmissions.registration">Ke registrasi</message>
 	<message key="about.onlineSubmissions.registrationRequired">Registrasi dan login dibutuhkan untuk memasukkan naskah dan kelengkapannya secara online dan untuk mengecek status naskah saat ini.</message>
 	<message key="about.authorGuidelines">Petunjuk Penulis</message>
-	<message key="about.submissionPreparationChecklist">Petunjuk Untuk Penulis</message>
+	<message key="about.submissionPreparationChecklist">Cheklist Persiapan Submisi</message>
 	<message key="about.submissionPreparationChecklist.description">Penulis yang ingin memasukkan naskah harus memperhatikan poin-poin di bawah ini. Jika naskah tidak sesuai dengan persyaratan yang telah dicantumkan, ada kemungkinan naskah tersebut akan dikembalikan.</message>
 	<message key="about.copyrightNotice">Pemberitahuan Hak Cipta</message>
 	<message key="about.privacyStatement">Pernyataan Privasi</message>
@@ -813,12 +879,18 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="about.subscriptionTypes.duration">Durasi</message>
 	<message key="about.subscriptionTypes.cost">Biaya</message>
 	<message key="about.availableSubscriptionTypes">Tipe Langganan</message>
+	<message key="about.purchaseIssue">Pembelian Terbitan</message>
+	<message key="about.purchaseArticle">Pembelian Artikel</message>
+	<message key="about.purchaseIssueDescription">Pembaca tanpa berlangganan mungkin masih memperoleh masalah individu. Opsi pembayaran berikut dan biaya yang tersedia.</message>
+	<message key="about.purchaseArticleDescription">Pembaca tanpa berlangganan mungkin masih membeli artikel individu. Opsi pembayaran berikut dan biaya yang tersedia.</message>
 	<message key="about.memberships">Keanggotaan</message>
 	<message key="about.journalSponsorship">Sponsor Jurnal</message>
 	<message key="about.aboutThisPublishingSystem">Tentang Sistem Penerbitan</message>
 	<message key="about.aboutThisPublishingSystem.altText">Editorial OJS dan Proses Penerbitan</message>
 	<message key="about.aboutOJSJournal"><![CDATA[Jurnal ini menggunakan Open Journal Systems {$ojsVersion}, merupakan perangkat lunak open source untuk manajemen jurnal dan penerbitan yang dikembangkan, didukung, dan bebas didistribusikan oleh <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> di bawah GNU General Public License.]]></message>
 	<message key="about.aboutOJSSite"><![CDATA[Situs ini menggunakan Open Journal Systems {$ojsVersion}, merupakan perangkat lunak open source untuk manajemen jurnal dan penerbitan yang dikembangkan, didukung, dan bebas didistribusikan oleh <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> di bawah GNU General Public License.]]></message>
+	<message key="about.ethic">Etika Publikasi</message>
+	<message key="about.plagiarism">Kebijakan Plagiarisme</message>
 	
 	<!-- Announcement -->
 
@@ -830,10 +902,46 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<!-- Donations -->
 	<message key="donations.thankYou">Terima Kasih</message>
 	<message key="donations.thankYouMessage">Terima kasih untuk kontribusi Anda. Kontribusi Anda sangat kami hargai.</message>
-	
+
+	<!-- Gifts -->
+	<message key="gifts.buyer">Dari</message>
+	<message key="gifts.buyerDescription">Dari siapa hadiah ini?</message>
+	<message key="gifts.recipient">Ke</message>
+	<message key="gifts.recipientDescription">Kepada siapa hadiah ini dikirim?</message>
+	<message key="gifts.thankYou">Terima Kasih</message>
+	<message key="gifts.thankYouMessage">Pembelian hadiah anda telah selesai. Anda akan menerima salinan email dari hadiah yang dikirim ke penerima setelah pembayaran anda diproses.</message>
+	<message key="gifts.purchaseGiftIndividualSubscription">Hadiah Berlangganan</message>
+	<message key="gifts.subscriptionFormIntroduction">Silahkan mengisi form di bawah ini. Informasi kontak yang disediakan, bersama dengan catatan hadiah anda, akan digunakan untuk email penerima dan memberitahu tentang langganan hadiah baru (Anda juga akan menerima salinan email ini).</message>
+	<message key="gifts.details">Detail Hadiah</message>
+	<message key="gifts.detailsDescription">Silakan pilih hadiah di bawah ini dan termasuk pesan pribadi yang akan dikirim melalui email kepada penerima (Anda akan menerima salinan email ini).</message>
+	<message key="gifts.gift">Hadiah</message>
+	<message key="gifts.noteTitle">Judul</message>
+	<message key="gifts.note">Pesan dalam Hadiah</message>
+	<message key="gifts.noteTitleRequired">Harap memberikan judul untuk pesan pribadi anda.</message>
+	<message key="gifts.noteRequired">Harap memberikan pesan pribadi.</message>
+	<message key="gifts.localeRequired">Silakan pilih bahasa untuk pesan pribadi anda.</message>
+	<message key="gifts.myGifts">Hadiah Saya</message>
+	<message key="gifts.manageMyGifts">Mengelola Hadiah Saya</message>
+	<message key="gifts.redeemGift">Menukar Hadiah</message>
+	<message key="gifts.status.notRedeemed">Tersedia</message>
+	<message key="gifts.status.redeemed">Tertukar</message>
+	<message key="gifts.status.redeemGift">Menukar Hadiah</message>
+	<message key="gifts.subscriptions">Langganan</message>
+	<message key="gifts.subscriptionsDescription">Sebuah hadiah berlangganan ditukar di sini akan menggantikan langganan yang ada (jika Anda memilikinya). Langganan akan dimulai pada tanggal penebusan dan akan berlaku selama jenis langganan.</message>
+	<message key="gifts.purchaseGiftSubscription">Memberikan hadiah berlangganan</message>
+	<message key="gifts.giftSubscriptionsAvailable">Hadiah berlangganan juga tersedia. Hadiah berlangganan dapat ditukarkan setiap saat oleh penerima adalah cara yang bagus untuk mendukung jurnal ini.</message>
+	<message key="gifts.noSubscriptions">Tidak ada Hadiah Berlangganan</message>
+	<message key="gifts.giftRedeemed">Hadiah telah berhasil ditukar.</message>
+	<message key="gifts.noGiftToRedeem">Hadiah ini tidak dapat ditukar.</message>
+	<message key="gifts.giftAlreadyRedeemed">Hadiah ini telah ditukarkan.</message>
+	<message key="gifts.giftNotValid">Hadiah ini tidak valid dan tidak bisa ditukar.</message>
+	<message key="gifts.subscriptionTypeNotValid">Jenis langganan untuk hadiah ini tidak valid. Silahkan hubungi manajer langganan.</message>
+	<message key="gifts.subscriptionNonExpiring">Hadiah tidak ditukar karena anda sudah memiliki langganan non-expiring dalam jurnal ini.</message>
+
 	<!-- Payments -->
 	<message key="payment.loginRequired">Anda harus login untuk melakukan pembayaran.</message>
 	<message key="payment.loginRequired.forArticle">Langganan atau pembelian artikel perlu mengakses item. Untuk memverifikasi langganan, mengakses pembelian sebelumnya, atau membeli artikel, login ke jurnal.</message>
+	<message key="payment.loginRequired.forIssue">Berlangganan atau pembelian Terbitan diperlukan untuk mengakses. Untuk memverifikasi langganan, akses pembelian sebelumnya, atau issue pembelian, masuk kedalam jurnal.</message>
 	<message key="payment.loginRequired.forDonation">Anda harus login untuk menyumbang.</message>
 	
 	<message key="payment.paid">Dibayar</message>
@@ -851,6 +959,8 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="payment.type.purchaseArticle">Biaya Membeli Artikel</message>
 	<message key="payment.type.subscription">Biaya Langganan</message>
 	<message key="payment.type.donation">Donasi</message>
+	<message key="payment.type.gift">Hadiah</message>
+	<message key="payment.type.gift.subscription">Berlangganan</message>
 	
 	<message key="payment.donation.makeDonation">Menyumbang</message>
 	
@@ -918,6 +1028,8 @@ Aktif berarti berapa jumlah review yang sedang dipertimbangkan atau sedang berla
 	<message key="installer.localeSettingsInstructions"><![CDATA[Untuk melengkapi dukungan Unicode (UTF-8), pilih UTF-8 untuk semua pengaturan karakter set. Perhatikan bahwa dukungan ini membutuhkan server database MySQL >= 4.1.1 atau PostgreSQL >= 7.1. Perhatikan juga bahwa dukungan Unicode penuh membutuhkan PHP >= 4.3.0 dengan dukungan untuk <a href="http://www.php.net/mbstring" target="_blank">mbstring</a> (secara default tersedia pada instalasi PHP terbaru). Anda mungkin akan menemui masalah saat menggunakan rangkaian karakter ini jika server Anda tidak memenuhi persyaratan.
 <br /><br />
 Server Anda sekarang support mbstring: <strong>{$supportsMBString}</strong>]]></message>
+	<message key="installer.allowFileUploads"><![CDATA[Your server currently allows file uploads: <strong>{$allowFileUploads}</strong>]]></message>
+	<message key="installer.maxFileUploadSize"><![CDATA[Your server currently allows a maximum file upload size of: <strong>{$maxFileUploadSize}</strong>]]></message>
 	<message key="installer.localeInstructions">Bahasa utama yang digunakan untuk sistem ini.</message>
 	<message key="installer.additionalLocalesInstructions">Centang bahasa tambahan yang support sistem ini.</message>
 	<message key="installer.filesDirInstructions"><![CDATA[Masukkan path name lengkap ke direktori untuk menyimpan file yang diunggah. Direktori ini seharusnya tidak bisa diakses melalui web secara langsung. <strong>Pastikan direktori ini ada dan dapat ditulis sebelum instalasi.</strong> Jendela path name seharusnya menggunakan tanda miring di depan, contoh "C:/myjournal/files".]]></message>
@@ -927,13 +1039,22 @@ Server Anda sekarang support mbstring: <strong>{$supportsMBString}</strong>]]></
 	<message key="installer.reinstallAfterDatabaseError"><![CDATA[<strong>Peringatan:</strong> Jika instalasi gagal ditengah jalan, Anda harus menghapus database OJS atau tabel yang sudah dibuat sebelum menginstal ulang database.]]></message>
 	<message key="installer.overwriteConfigFileInstructions"><![CDATA[<h4>PENTING!</h4>
 <p>Installer tidak bisa secara otomatis menimpa file konfigurasi. Sebelum mencoba untuk menggunakan sistem, buka <tt>config.inc.php</tt> dalam text editor dan gantikan isinya dengan isi text field di bawah ini.</p>]]></message>
-	<message key="installer.manualSQLInstructions"><![CDATA[<h4>Instalasi Manual</h4>
-<p>Pernyataan SQL untuk membuat skema database dan data awal OJS ditampilkan di bawah ini. Perhatikan bahwa sistem akan tidak dapat digunakan hingga pernyataan ini telah dieksekusi secara manual. Anda juga akan harus mengatur secara manual file konfigurasi <tt>config.inc.php</tt>.</p>]]></message>
-	<message key="installer.installationComplete"><![CDATA[<p>Instalasi OJS berhasil.</p>
-<p>Untuk memulai, <a href="{$loginUrl}">login</a> dengan Nama Pengguna dan Kata Sandi Administrator Situs.</p>]]></message>
-	<message key="installer.upgradeComplete"><![CDATA[<p>Upgrade OJS ke versi {$version} selesai dengan sukses.</p>
-<p>Jangan lupa untuk mengelola pengaturan "installed" dalam file konfigurasi Anda config.inc.php.</p>]]></message>
+	<message key="installer.installationComplete"><![CDATA[<p>Pemasangan OJS telah selesai.</p>
+<p>Untuk mulai menggunakan sistem, <a href="{$loginUrl}">login</a> gunakan username and password masuk kedalam halaman sebelumnya </p>
+<p>Jika Anda ingin menerima berita dan update, Anda dapat:</p>
+<ol>
+	<li><a href="http://pkp.sfu.ca/ojs/register" target="_new">Daftarkan</a> jurnal Anda, konferensi, atau pemanen dan menerima update pada software upgrade, patch keamanan, dan banyak lagi.</li>
+	<li>Join our <a href="http://pkp.sfu.ca/informed" target="_new">list diskusi</a> untuk OJS, OCS, the Harvester, Lemon8-XML, OMP, atau semua hal di atas.</li>
+	<li>Berlangganan <a href="http://pkp.sfu.ca/blog" target="_new">PKP blog</a> <a href="http://pkp.sfu.ca/blog/feed" target="_new">RSS feed</a>.</li>
+</ol>
+<p>Jika anda ada pertanyaan atau komentar, tolong kunjungi <a href="http://forum.pkp.sfu.ca" target="_new">support forum</a>.</p>]]></message>
+	<message key="installer.upgradeComplete"><![CDATA[<p>Pembaharuan OJS ke versi {$version} telah berhasil.</p>
+<p>Jangan lupa untuk mengatur "installed" setting di dalam config.inc.php konfigurasi file anda back ke <em>On</em>.</p>
+<p>Jika Anda belum terdaftar dan ingin menerima berita dan update, <strong>silahkan daftar di<a href="http://pkp.sfu.ca/ojs/register" target="_new">http://pkp.sfu.ca/ojs/register</a>.</strong> jika anda memiliki pertanyaan dan komentar, tolong kunjungi <a href="http://forum.pkp.sfu.ca" target="_new">support forum</a>.</p>]]></message>
 
+<!-- Installation upgrade warnings -->
+	<message key="site.upgradeAvailable.admin"><![CDATA[There is a new version of OJS available! You are currently using OJS {$currentVersion}. The most recent version is OJS {$latestVersion}. Please visit <a href="http://pkp.sfu.ca/ojs_download" target="_new">this page</a> to download the most recent version and find upgrade instructions.]]></message>
+	<message key="site.upgradeAvailable.manager"><![CDATA[There is a new version of OJS available! You are currently using OJS {$currentVersion}. The most recent version is OJS {$latestVersion}. Please contact your Site Administrator ({$siteAdminName}, <a href="mailto:{$siteAdminEmail}">{$siteAdminEmail}</a>) to notify them of this new release. More information can be found <a href="http://pkp.sfu.ca/ojs_download" target="_new">here</a>.]]></message>
 
 	<!-- Article Logs -->
 	<message key="log.author.submitted">{$authorName} telah memasukkan naskah baru, ID {$submissionId}.</message>
@@ -1018,7 +1139,7 @@ Validasi mungkin gagal dalam pencarian URL memerlukan form data yang diposting.]
 
 	<message key="rt.metadata.pkp.primaryAuthor">Nama Penulis, afiliasi, negara</message>
 	<message key="rt.metadata.pkp.peerReviewed">Artikel yang dipeer-review</message>
-	<message key="rt.metadata.pkp.doi">Digital Object Identifier</message>
+
 
 
 
@@ -1073,4 +1194,9 @@ Validasi mungkin gagal dalam pencarian URL memerlukan form data yang diposting.]
 	<!-- Debug messages -->
 	<message key="debug.notes.currencyListLoad">Memuat daftar mata uang "{$filename}" dari XML</message>
 	<message key="debug.notes.helpMappingLoad">Memuat ulang bantuan XML untuk memetakan file {$filename} dalam mencari {$id}.</message>
+	<message key="payment.type.purchaseIssue">Biaya pembelian edisi</message>
+	<message key="instansi">Politeknik Negeri Jember</message>
+	<message key="jurusan">Jurusan Produksi Pertanian</message>
+	<message key="user.pesan">Pesan Versi Cetak</message>
+
 </locale>

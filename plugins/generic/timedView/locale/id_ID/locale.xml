@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * @file plugins/generic/timedView/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.timedView.displayName">Laporan Timed Views</message>
+	<message key="plugins.generic.timedView.description">Plugin ini menerapkan laporan CSV yang menginformasikan setiap pembaca artikel, disaring oleh jangka waktu yang telah ditetapkan.</message>
+
+	<message key="plugins.generic.timedView.form.dateStartRequired">Diperlukan Tanggal (start)</message>
+	<message key="plugins.generic.timedView.form.dateStartValid">Pilih tanggal yang valid</message>
+	<message key="plugins.generic.timedView.form.dateEndRequired">Diperlukan Tanggal (end)</message>
+	<message key="plugins.generic.timedView.form.dateEndValid">Pilih tanggal yang valid</message>
+	<message key="plugins.generic.timedView.form.generate">Menghasilkan Laporan</message>
+	<message key="plugins.generic.timedView.form.clearLogs">Bersihkan Log</message>
+	<message key="plugins.generic.timedView.form.clearLogs.description">Pilih tanggal untuk menghapus catatan dari log. Setiap entri log yang dibuat sebelum tanggal yang dipilih akan dihapus. Catatan: hal ini hanya efek Jangka waktu Views Plugin dan tidak pada view counts lainnya (misalnya untuk Views Plugin umum).</message>
+	<message key="plugins.generic.timedView.form.clearLogs.confirm">Apakah Anda yakin ingin menghapus? Proses ini tidak dapat dibatalkan.</message>
+
+	<message key="plugins.generic.timedView.report.articleId">ID Artikel</message>
+	<message key="plugins.generic.timedView.report.articleTitle">Judul Artikel</message>
+	<message key="plugins.generic.timedView.report.datePublished">Tanggal Penerbitan</message>
+	<message key="plugins.generic.timedView.report.abstractViews">Lihat Abstract</message>
+	<message key="plugins.generic.timedView.report.galleyViews">Total Galley Views</message>
+</locale>

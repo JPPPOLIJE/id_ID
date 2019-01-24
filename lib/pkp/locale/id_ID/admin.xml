@@ -9,9 +9,10 @@
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
+  *
   -->
 
-<locale name="id_ID" full_name="Bahasa Indonesia">
+<locale name="id_ID" full_name="Indonesia">
 	<message key="admin.adminFunctions">Fungsi Administratif</message>
 	<message key="admin.auth.confirmDelete"> Apakah Anda yakin ingin menghapus sumber pengesahan ini secara permanen?</message>
 	<message key="admin.auth.create">Buat Sumber Pengesahan</message>
@@ -37,8 +38,17 @@
 	<message key="admin.languages.noLocalesAvailable">Tidak ada locale tambahan yang tersedia untuk instalasi.</message>
 	<message key="admin.languages.reload">Reload locale</message>
 	<message key="admin.languages.uninstall">Uninstal locale</message>
-	<message key="admin.phpInfo"> Informasi Detail PHP</message>
-	<message key="admin.saveSystemConfig">Simpan Konfigurasi</message>
+	<message key="admin.phpInfo">Informasi Detail PHP</message>
+	<message key="admin.scheduledTask">Jadwal Tugas</message>
+	<message key="admin.scheduledTask.startTime">Proses tugas dimulai.</message>
+	<message key="admin.scheduledTask.stopTime">Proses tugas terhenti.</message>
+	<message key="admin.scheduledTask.noLog">Tidak ada catatan tugas produksi.</message>
+	<message key="admin.scheduledTask.openAccessNotification">Membuka akses pemberitahuan</message>
+	<message key="admin.scheduledTask.downloadLog">instalasi OJS anda secara otomatis dijalankan dan menyelesaikan tugas ini dan anda dapat mengunduh file log di sini: {$url}</message>
+	<message key="admin.scheduledTask.confirmClearLogs">Apakah anda yakin ingin menghapus semua log penjadwalan pelaksanaan tugas?</message>
+	<message key="admin.scheduledTask.clearLogs">Hapus Log Jadwal Pelaksanaan Tugas</message>
+	<message key="admin.scheduledTask.reviewReminder">Pengingat Ulasan</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Peringatan kadaluwarsa langganan</message>
 	<message key="admin.server.apacheVersion">Versi Apache</message>
 	<message key="admin.server.dbDriver">Database driver</message>
 	<message key="admin.server.dbVersion">Versi server database</message>
@@ -46,6 +56,7 @@
 	<message key="admin.serverInformation">Informasi Server</message>
 	<message key="admin.server.phpVersion">Versi PHP</message>
 	<message key="admin.server.platform">Platform OS</message>
+	<message key="admin.settings">Pengaturan</message>
 	<message key="admin.settings.aboutDescription">Deskripsi Situs</message>
 	<message key="admin.settings.contactEmail">Email Kontak Utama</message>
 	<message key="admin.settings.contactName">Nama Kontak Utama</message>
@@ -57,15 +68,18 @@
 	<message key="admin.settings.homeHeaderImageInvalid">Format gambar logo invalid. Format yang diterima adalah .gif, .jpg, atau .png.</message>
 	<message key="admin.settings.introduction">Pendahuluan</message>
 	<message key="admin.settings.minPasswordLength">Panjang Kata Sandi Min</message>
+	<message key="admin.settings.oneStepReset">Gunakan satu langkah untuk mereset password?</message>
 	<message key="admin.settings.oaiRegistration">Daftarkan Situs Untuk Pengindeksan (Metadata Harvesting)</message>
 	<message key="admin.settings.passwordCharacters">Karakter</message>
 	<message key="admin.settings.siteLanguage">Bahasa Situs</message>
 	<message key="admin.settings.siteStyleSheetInvalid"> Format lembar model situs invalid. Format yang dapat diterima adalah .css.</message>
 	<message key="admin.settings.siteStyleSheet">Style Sheet</message>
+	<message key="admin.settings.siteTheme">Tema Situs</message>
 	<message key="admin.settings.siteTitle">Nama Situs</message>
 	<message key="admin.siteAdmin">Administrasi Situs</message>
 	<message key="admin.siteManagement">Manajemen Situs</message>
 	<message key="admin.siteSettings">Pengaturan Situs</message>
+	<message key="admin.siteSetup">Setup Situs</message>
 	<message key="admin.systemConfigFileReadError"><![CDATA[File konfigurasi <tt>config.inc.php</tt> tidak ada, tidak terbaca, atau invalid.]]></message>
 	<message key="admin.systemInformation">Informasi Sistem</message>
 	<message key="admin.versionBuild">Tubuh</message>
@@ -81,4 +95,12 @@
 	<message key="admin.version.updateAvailable">Versi yang telah diupdate sudah tersedia</message>
 	<message key="admin.version.upToDate">Sistem Anda up-to-date</message>
 	<message key="admin.version">Versi</message>
+
+	<message key="admin.fileLoader.wrongBasePathLocation">Path {$path} harus berada di dalam direktori file publik.</message>
+	<message key="admin.fileLoader.pathNotAccessible">Folder {$path} bukan sebuah folder atau folder tidak ditemukan.</message>
+	<message key="admin.fileLoader.moveFileFailed">File {$filename} tidak dapat dipindahkan dari {$currentFilePath} ke {$destinationPath}</message>
+	<message key="admin.fileLoader.fileProcessed">File {$filename} telah di proses dan di arsip.</message>
+	<message key="admin.fileLoader">File loader</message>
+	<message key="admin.error.utilExecutionProblem">"{$utilPath}" program dikembalikan seperti semula dikarenakan error: {$output}</message>
+	<message key="admin.error.executingUtil">Error: tidak dapat dijalankan "{$utilPath}".  Cek {$utilVar} setting di config.inc.php.</message>
 </locale>

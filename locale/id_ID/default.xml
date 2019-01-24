@@ -4,8 +4,8 @@
 <!--
   * locale/id_ID/default.xml
   *
-  * Copyright (c) 2013-2019 Simon Fraser University
-  * Copyright (c) 2003-2019 John Willinsky
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
@@ -75,14 +75,14 @@ Ikuti protokol untuk membuat revisi elekronik untuk manuskrip Anda:
 	<ol>
 		<li> Saat naskah masih dalam format word-processing (contoh: word), salin judul naskah yang dijadikan acuan di daftar referensi (jika ditampilkan terlalu biasa sebagai judul-contoh: "Damai"-kemudian salin penulis dan judul).</li> 
 		<li> salin judul referensi antara %22's, tempatkan a + diantara kata: http://scholar.google.com/scholar?q=%22PASTE+TITLE+HERE%22&hl=en&lr=&btnG=Search.</li>
-	<li> Tambahkan frase GS SEARCH sampai akhir masing-masing Sitiran di daftar referensi naskah.</li> 
+	<li> Tambahkan frase GS SEARCH sampai akhir masing-masing Kutipan di daftar referensi naskah.</li> 
 	<li> Ubah frase itu ke hyperlink dengan meng-highlightnya danmenggunakan alat Insert Hyperlink milik Word dan URL yang disiapkan di #2.</li> 
 	</ol>
 	<h4>C. Memudahkan pembaca untuk mencari referensi dengan DOI</h4> 
 	<ol>
 	<li> Sementara naskah masih di Word, salin sekelompok referensi ke dalam CrossRef Text Query http://www.crossref.org/freeTextQuery/.</li> 
 	<li> Salin tiap DOI yang disediakan pertanyaan di URL berikut ini (diantara = and &): http://www.cmaj.ca/cgi/external_ref?access_num=PASTE DOI#HERE&link_type=DOI.</li> 
-	<li> Tambahkan frase CrossRef hingga akhir tiap Sitiran di daftar referensi naskah.</li> 
+	<li> Tambahkan frase CrossRef hingga akhir tiap Kutipan di daftar referensi naskah.</li> 
 	<li> Ubah frase menjadi hyperlink dengan meng-highlight frase dan menggunakan alat Insert Hyperlink Word dan URL yang disediakan dan tepat di #2.</li>
 	</ol>]]></message> 
 
@@ -128,8 +128,10 @@ Ikuti protokol untuk membuat revisi elekronik untuk manuskrip Anda:
 	<message key="default.journalSettings.waiverPolicy"> Jika Anda tidak mempunyai dana untuk membayar biaya penerbitan, kami akan membebaskan Anda dari biaya apapun. Kami tidak ingin biaya menghambat penerbitan karya yang berharga.</message> 
 	<message key="default.journalSettings.purchaseArticleFee"> Membeli Artikel</message> 
 	<message key="default.journalSettings.purchaseArticleFeeDescription"> Pembayaran biaya ini akan memudahkan Anda untuk melihat, mengunduh, dan menge-print artikel ini.</message> 
+	<message key="default.journalSettings.purchaseIssueFee">Cetak Nota Pembelian</message>
+	<message key="default.journalSettings.purchaseIssueFeeDescription">Pembayaran biaya ini akan memungkinkan Anda untuk melihat, download, dan mencetak nota ini.</message>
 	<message key="default.journalSettings.membershipFee"> Keanggotaan Asosiasi </message> 
 	<message key="default.journalSettings.membershipFeeDescription"> Pembayaran biaya ini akan mendaftarkan Anda sebagai anggota di asosiasi ini untuk satu tahun dan memberikan akses gratis ke jurnal ini.</message> 
 	<message key="default.journalSettings.donationFee"> Donasi untuk jurnal </message> 
-	<message key="default.journalSettings.donationFeeDescription"> Donasi berapa pun jumlahnya untuk jurnal ini sangat diterima karena membantu dan menyediakan sarana bagi editor untuk menyediakan jurnal dengan kualitas terbaik untuk para pembaca.</message> 
+	<message key="default.journalSettings.donationFeeDescription">Donasi berapa pun jumlahnya untuk jurnal ini sangat diterima karena membantu dan menyediakan sarana bagi editor untuk menyediakan jurnal dengan kualitas terbaik untuk para pembaca.</message> 
 </locale>

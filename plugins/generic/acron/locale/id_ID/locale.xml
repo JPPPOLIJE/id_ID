@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2000-2016 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  -->
+ 
+<locale name="id_ID" full_name="Bahasa Indonesia">
+	<message key="plugins.generic.acron.name">Acron Plugin</message>
+	<message key="plugins.generic.acron.description"><![CDATA[Plugin ini untuk mengurangi ketergantungan dari OJS pada alat penjadwalan periodik seperti 'cron.']]></message>
+	<message key="plugins.generic.acron.enabled">Plugin Acron dikatifkan.</message>
+	<message key="plugins.generic.acron.disabled">Plugin Acron dimatikan.</message>
+
+	<message key="plugins.generic.acron.reload">Mengembalikan Jadwal Tugas</message>
+</locale>

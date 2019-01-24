@@ -4,20 +4,19 @@
 <!--
   * locale/id_ID/installer.xml
   *
-  * Copyright (c) 2013-2019 Simon Fraser University
-  * Copyright (c) 2003-2019 John Willinsky
+  * Copyright (c) 2013-2016 Simon Fraser University Library
+  * Copyright (c) 2003-2016 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
+  *
   -->
 
-
-
 <locale name="id_ID" full_name="Bahasa Indonesia">
-<message key="installer.additionalLocales">Bahasa Tambahan</message>
-<message key="installer.administratorAccount">Akun Administrator</message>
+	<message key="installer.additionalLocales">Bahasa Tambahan</message>
+	<message key="installer.administratorAccount">Akun Administrator</message>
 	<message key="installer.administratorAccountInstructions">Akun pengguna ini akan menjadi administrator situs dan memiliki akses penuh ke sistem. Akun pengguna tambahan dapat dibuat setelah instalasi. </message>
-<message key="installer.checkNo"><![CDATA[<span class="formError">Tidak</span>]]></message>
+	<message key="installer.checkNo"><![CDATA[<span class="formError">Tidak</span>]]></message>
 	<message key="installer.checkYes">Ya</message>
 	<message key="installer.clientCharset">Klien karakter set</message>
 	<message key="installer.clientCharsetInstructions">Kode karakter yang dikirim dan diterima perambah.</message>
@@ -59,18 +58,17 @@
 	<message key="installer.installFileError"><![CDATA[File instalasi <tt>dbscripts/xml/install.xml</tt> Tidak ada atau tidak dapat terbaca.]]></message>
 	<message key="installer.installFilesDirError">Direktori khusus untuk file unggah tidak ada atau tidak dapat diisi</message>
 	<message key="installer.installParseDBFileError"><![CDATA[Kesalahan penguraian file instalasi database<tt>{$file}</tt>.]]></message>
-	<message key="installer.installParseEmailTemplatesFileError"><![CDATA[Kesalaha penguraian file template email<tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseEmailTemplatesFileError"><![CDATA[Kesalahan penguraian file template email<tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseFilterConfigFileError"><![CDATA[Kesalahan parsing file konfigurasi filter <tt>{$file}</tt>.]]></message>
 	<message key="installer.locale">Bahasa</message>
 	<message key="installer.locale.maybeIncomplete">Bahasa yang ditandai mungkin tidak lengkap.</message>
 	<message key="installer.localeSettings">Setting Bahasa</message>
-	<message key="installer.manualInstall">Instal Manual</message>
-	<message key="installer.miscSettings">Pengaturan Lain</message>
+	<message key="installer.oaiSettings">Pengaturan OAI</message>
 	<message key="installer.oaiRepositoryIdInstructions"><![CDATA[Repositori yang menyimpan OAI identifier untuk memudahkan metadata harvesting situs Anda oleh <a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> Protokol untuk Metadata Harvesting.]]></message>
 	<message key="installer.oaiRepositoryId">Repositori identifier OAI</message>
-	<message key="installer.pleaseUpgradeAfterManualInstall">Silahkan jalankan alat upgrade setelah Anda menginstal database Anda. Jalankan 'php tools/upgrade.php upgrade' dari dalam direktori instalasi utama untuk upgrade ini.</message>
 	<message key="installer.publicFilesDirError">Direktori file umum tidak ada atau tidak dapat diisi.</message>
 	<message key="installer.releaseNotes">Catatan Release</message>
 	<message key="installer.securitySettings">Security Setting</message>
-	<message key="installer.skipFilesDir">Jangan membuat sub direktori (hanya berguna untuk instalasi manual). </message>
-	<message key="installer.manualUpgrade">Upgrade Manual</message>
+	<message key="installer.beacon">Suar</message>
+	<message key="installer.beacon.enable">Menyediakan sebuah situs ID unik dan URL dasar OAI ke PKP untuk statistik dan tujuan peringatan keamanan saja.</message>
 </locale>
